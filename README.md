@@ -8,11 +8,11 @@ I analysed twelve months of Chicago bike-share trips (**October 2025 to Septembe
 
 | | |
 |---|---|
-| 📄 Final report | [reports/Final_Report.pdf](reports/Final_Report.pdf) |
-| 📊 Presentation | [reports/Presentation.pdf](reports/Presentation.pdf) |
-| 💻 Notebook | [notebooks/Cyclistic_analysis.ipynb](notebooks/Cyclistic_analysis.ipynb) |
-| 📋 Scope of work | [reports/Scope_of_Work.pdf](reports/Scope_of_Work.pdf) |
-| 📝 Analysis log | [reports/Analysis_Log.pdf](reports/Analysis_Log.pdf) |
+| 📄 Final report | [reports/cyclistic_final_report](reports/cyclistic_final_report) |
+| 📊 Presentation | [reports/cyclistic_presentation](reports/cyclistic_presentation.pptx) |
+| 💻 Notebook | [notebooks/cyclistic_analysis.ipynb](notebooks/cyclistic_analysis.ipynb) |
+| 📋 Scope of work | [reports/cyclistic_scope_of_work](reports/cyclistic_scope_of_work) |
+| 📝 Analysis log | [reports/cyclistic_data_analysis_journal](reports/cyclistic_data_analysis_journal) |
 
 ---
 
@@ -69,25 +69,25 @@ New columns: `ride_length`, `day_of_week`, `day_type`, `hour`, `month`, `season`
 
 **1. Casual riders ride for longer.** The median casual ride is 11.1 minutes against 8.7 for members, and casual rides have a much longer tail.
 
-![Ride length](charts/01_ride_length_boxplot.png)
+![Ride length](charts/ride_length_boxplot.png)
 
 **2. Members ride on weekdays, casual riders at the weekend.** On Saturday the two groups are almost level.
 
-![Rides by day](charts/02_rides_by_day.png)
+![Rides by day](charts/rides_by_day.png)
 
 **3. Members follow the commute.** Members have clear peaks at 8 AM and 5 PM. Casual riders have no morning rush.
 
-![Rides by hour](charts/04_rides_by_hour.png)
+![Rides by hour](charts/rides_by_hour.png)
 
-![Day and hour heatmap](charts/05_day_hour_heatmap.png)
+![Day and hour heatmap](charts/day_hour_heatmap.png)
 
 **4. Casual riding is a summer business.** Casual rides are about 15 times higher in July than in January. For members the difference is about 5 times.
 
-![Monthly rides](charts/06_monthly_rides.png)
+![Monthly rides](charts/monthly_rides.png)
 
 **5. Different parts of the city.** Casual riders start at Navy Pier and the lakefront. Members start in the Loop, next to the main train stations.
 
-![Top stations](charts/07_top_start_stations.png)
+![Top stations](charts/top_start_stations.png)
 
 ## Machine learning: who to convert first
 
@@ -101,15 +101,15 @@ I trained a Random Forest to predict whether a ride was taken by a member or a c
 
 I used **balanced accuracy** because members make up almost two-thirds of the rides, so plain accuracy would reward a model that always guesses "member".
 
-![Model comparison](charts/09_model_comparison.png)
+![Model comparison](charts/model_comparison.png)
 
 **Ride length is the strongest signal**, followed by distance and start longitude (permutation importance). Whether a ride is a round trip adds almost nothing.
 
-![Permutation importance](charts/10_permutation_importance.png)
+![Permutation importance](charts/permutation_importance.png)
 
 Casual rides scoring **0.7 or higher** (about 6%) peak at 8 AM and 5 PM and start at business-district stations such as Wells St & Hubbard St and Canal St & Madison St. University Ave & 57th St, near the University of Chicago, also shows up in the top five.
 
-![Conversion targets](charts/11_conversion_targets.png)
+![Conversion targets](charts/conversion_targets.png)
 
 ## Recommendations
 
