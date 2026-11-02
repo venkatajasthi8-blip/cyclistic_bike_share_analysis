@@ -1,0 +1,14 @@
+# Raw trip data: too large for GitHub, download it from the source instead
+12_months_datasets/
+*.csv
+*.zip
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# macOS
+.DS_Store
