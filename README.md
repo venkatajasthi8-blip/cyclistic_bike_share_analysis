@@ -8,11 +8,11 @@ I analysed twelve months of Chicago bike-share trips (**October 2025 to Septembe
 
 | | |
 |---|---|
-| 📄 Final report | [reports/cyclistic_final_report](reports/cyclistic_final_report) |
+| 📄 Final report | [reports/cyclistic_final_report](reports/cyclistic_final_report.pages) |
 | 📊 Presentation | [reports/cyclistic_presentation](reports/cyclistic_presentation.pptx) |
 | 💻 Notebook | [notebooks/cyclistic_analysis.ipynb](notebooks/cyclistic_analysis.ipynb) |
-| 📋 Scope of work | [reports/cyclistic_scope_of_work](reports/cyclistic_scope_of_work) |
-| 📝 Analysis log | [reports/cyclistic_data_analysis_journal](reports/cyclistic_data_analysis_journal) |
+| 📋 Scope of work | [reports/cyclistic_scope_of_work](reports/cyclistic_scope_of_work.pages) |
+| 📝 Analysis log | [reports/cyclistic_data_analysis_journal](reports/cyclistic_data_analysis_journal.pages) |
 
 ---
 
