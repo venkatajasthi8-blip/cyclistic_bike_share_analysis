@@ -83,7 +83,7 @@ New columns: `ride_length`, `day_of_week`, `day_type`, `hour`, `month`, `season`
 
 **4. Casual riding is a summer business.** Casual rides are about 15 times higher in July than in January. For members the difference is about 5 times.
 
-![Monthly rides](charts/monthly_rides.png)
+![Monthly rides](charts/montly_rides.png)
 
 **5. Different parts of the city.** Casual riders start at Navy Pier and the lakefront. Members start in the Loop, next to the main train stations.
 
