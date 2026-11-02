@@ -152,6 +152,6 @@ cyclistic_share_analysis/
 
 ## About
 
-Venkata Praveen Jasthi · [LinkedIn](https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BZbuWPYY8SCyFI%2F%2Bv6fPZVw%3D%3D) · [Email](mailto:jasthipraveen*@gmail.com)
+Venkata Praveen Jasthi · [LinkedIn](https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BZbuWPYY8SCyFI%2F%2Bv6fPZVw%3D%3D) · [Email](mailto:jasthipraveen8@gmail.com)
 
 The case study and the company "Cyclistic" come from the Google Data Analytics Professional Certificate. The data is made available by Divvy under the Divvy Data License Agreement. This is an independent analysis for learning purposes and is not affiliated with Divvy, Lyft or the City of Chicago.
